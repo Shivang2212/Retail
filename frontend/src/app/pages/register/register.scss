@@ -1,0 +1,17 @@
+// Register page re-uses the auth-page layout from login.scss
+// The login.scss already defines all shared auth styles
+
+.auth-switch {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--text-secondary);
+
+  a {
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover { text-decoration: underline; }
+  }
+}
